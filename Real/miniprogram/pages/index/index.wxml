@@ -1,0 +1,18 @@
+<page1 wx:if="{{PageCur=='page1'}}"></page1>
+<page2 wx:if="{{PageCur=='page2'}}"></page2>
+
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="page1">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/page1{{PageCur=='page1'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='page1'?'text-green':'text-gray'}}">鉴别</view>
+  </view>
+
+  <view class="action" bindtap="NavChange" data-cur="page2">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/page2{{PageCur=='page2'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='page2'?'text-green':'text-gray'}}">查询</view>
+  </view>
+</view>

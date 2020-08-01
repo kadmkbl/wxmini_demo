@@ -1,0 +1,52 @@
+/* pages/gemmologist/gemmologist.wxss */
+page {
+  padding-top: 100rpx;
+}
+.cu-btn {
+	position: relative;
+	border: 0rpx;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	font-size: 28rpx;
+	height: 64rpx;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	overflow: visible;
+	margin-left: initial;
+	transform: translate(0rpx, 0rpx);
+	margin-right: initial;
+}
+
+.cu-btn.lg {
+	padding: 0 30rpx;
+  font-size: 45rpx;
+  width: 70%;
+  left: 15%;
+  background-color: var(--cyan);
+  color: var(--white);
+}
+
+.padding {
+	padding: 100rpx;
+}
+
+.margin-top {
+	margin-top: 15rpx;
+}
+
+.cu-list>.cu-item .move {
+	position: absolute;
+	right: 0rpx;
+	display: flex;
+	width: 120rpx;
+	height: 100%;
+	transform: translateX(100%)
+}
+
+.cu-list>.cu-item.move-cur {
+	transform: translateX(-120rpx)
+}

@@ -1,0 +1,32 @@
+/* pages/page2.wxss */
+.cu-btn {
+	position: relative;
+	border: 0rpx;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	font-size: 28rpx;
+	height: 64rpx;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	overflow: visible;
+	margin-left: initial;
+	transform: translate(0rpx, 0rpx);
+	margin-right: initial;
+}
+
+.cu-btn.lg {
+	padding: 0 40rpx;
+  font-size: 40rpx;
+  width: 50%;
+  left: 25%;
+  background-color: var(--cyan);
+  color: var(--white);
+}
+
+.margin-top {
+	margin-top: 15rpx;
+}

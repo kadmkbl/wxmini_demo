@@ -1,0 +1,12 @@
+<!--pages/page1.wxml-->
+<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg">
+  <view slot="content">
+    <image src="/images/cjkz.png" mode="widthFix"></image>
+  </view>
+</cu-custom>
+
+<swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper-item wx:for="{{swiperList}}" wx:key>
+    <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+  </swiper-item>
+</swiper>
