@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 /* pages/page1.wxss */
 .tower-swiper .tower-item {
   transform: scale(calc(0.5 + var(--index) / 10));
   margin-left: calc(var(--left) * 100rpx - 150rpx);
   z-index: var(--index);
+=======
+/* pages/page1.wxss */
+.tower-swiper .tower-item {
+  transform: scale(calc(0.5 + var(--index) / 10));
+  margin-left: calc(var(--left) * 100rpx - 150rpx);
+  z-index: var(--index);
+>>>>>>> 6cad84634bca45f188838c6d4a8711882d63217b
 }

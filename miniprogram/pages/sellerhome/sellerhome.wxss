@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 /* pages/sellerhome/sellerhome.wxss */
 .tousu {
   position: absolute;
   top: 1100rpx;
   left: 20rpx;
+=======
+/* pages/sellerhome/sellerhome.wxss */
+.tousu {
+  position: absolute;
+  top: 1100rpx;
+  left: 20rpx;
+>>>>>>> 6cad84634bca45f188838c6d4a8711882d63217b
 }
