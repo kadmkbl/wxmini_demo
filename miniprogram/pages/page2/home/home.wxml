@@ -1,2 +1,53 @@
 <!--pages/page2.wxml-->
-<text>pages/page2.wxml</text>
+<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg">
+  <view slot="content">
+    <image src="/images/cjkz.png" mode="widthFix"></image>
+  </view>
+</cu-custom>
+
+<!-- 查询卖家 -->
+<view class="padding flex flex-direction">
+  <navigator class="content" hover-class="none" url="../selectseller/selectseller" open-type="navigate">
+    <button class="cu-btn lg">查询卖家</button>
+  </navigator>
+</view>
+
+<!-- 已关注卖家和风险提醒 -->
+<scroll-view scroll-x class="nav text-center">
+  <view class="cu-item {{0==TabCur?'text-cyan cur':''}}" bindtap="tabSelect" data-id="0">
+    {{'已关注卖家'}}
+  </view>
+  <view class="cu-item {{1==TabCur?'text-cyan cur':''}}" bindtap="tabSelect" data-id="1">
+    {{'风险提醒'}}
+  </view>
+</scroll-view>
+
+<!-- 已关注卖家页面内容 -->
+<view wx:if="{{TabCur=='0'}}" class="cu-list menu-avatar">
+  <view class="cu-item ">
+    <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <navigator class="content" hover-class="none" url="../selectseller/selectseller" open-type="navigate">
+      <view class="text-pink">
+        <text class="text-cut">莫甘娜</text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">凯尔，你被自己的光芒变的盲目！</text>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<!-- 风险提醒页面内容 -->
+<view wx:if="{{TabCur=='1'}}" class="cu-list menu-avatar">
+  <view class="cu-item ">
+    <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <navigator class="content" hover-class="none" url="../selectseller/selectseller" open-type="navigate">
+      <view class="text-pink">
+        <text class="text-cut">莫甘娜</text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">凯尔，你是猪！</text>
+      </view>
+    </navigator>
+  </view>
+</view>
