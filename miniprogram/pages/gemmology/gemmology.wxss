@@ -1,0 +1,23 @@
+/* pages/gemmology/gemmology.wxss */
+.cu-card {
+	position: relative;
+	top: 120rpx;
+}
+
+.box {  
+	position: relative;
+	top: 120rpx;
+}
+
+.inbox {  
+	position: relative;
+	width: 75%;
+	left: 12.5%;
+}
+
+.cu-form-group {
+	position: relative;
+	top: 140rpx;
+	background-color: var(--white);
+	display: flex;
+}

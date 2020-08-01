@@ -1,0 +1,6 @@
+/* pages/sellerhome/sellerhome.wxss */
+.tousu {
+  position: absolute;
+  top: 1100rpx;
+  left: 20rpx;
+}

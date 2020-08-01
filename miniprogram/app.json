@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/page1/home/home",
-    "pages/page2/home/home"
+    "pages/page2/home/home",
+    "pages/selectseller/selectseller",
+    "pages/gemmologist/gemmologist",
+    "pages/sellerhome/sellerhome",
+    "pages/complainseller/complainseller",
+    "pages/gemmology/gemmology"
   ],
 
   "window": {
@@ -10,7 +15,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "Luxury Forever",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
   },
 
   "usingComponents": {
